@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  background-image: url("ecofriendly.png" ); 
+  alt: "This is a picture of diverse people each holding a small not grown tree as a symbol of saving the environment ";
+  background-size: cover;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+ 
+}
+
+img {
+  height: 60px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.link {
+  text-decoration: none; 
+  color: white;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: darkgreen; 
+  border-radius: 25px;
+
+}
+
+.nav a {
+  font-style: normal;
+}
+
+.hero {
+  background-image: url("ecofriendly.png");
+  alt: "This is a picture of diverse people each holding a small not grown tree as a symbol of saving the environment ";
+  background-size: cover;
+  background-position: center;
+  height: 400px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.hero:hover{
+  filter: drop-shadow(1px 1px 20px green);
+
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.hero h1 {
+  font-size: 48px; 
+}
+
+.hero p {
+  font-size: 24px; 
+}
+
+.hero button {
+width: 110px;  
+} 
+
+
+section {
+  width: 840px;
+  margin: 50px auto 0 auto;
+  color: green;
+  border-radius: 35px;
+}
+
+.section-box {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+ 
+
+}
+
+
+#quote-offer-container {
+  background-color: rgba(0, 0, 0, 0.5); 
+  margin-right: auto;
+  border-radius: 35px;
+  border: green dashed;
+  color: white;
+  text-align: center;
+  /* filter:drop-shadow(1px 1px 20px green) ; */
+
+}
+
+.section-box:hover{
+  filter: drop-shadow(1px 1px 20px green);
+
+}
+#quote-form-container {
+  padding: 20px;
+  margin-top: 30px;
+  height: 200px;
+}
+
+#quote-form {
+  text-align: center;
+  /* border: green solid; */
+  border-radius: 30px;
+  filter:drop-shadow(1px 1px 20px green) ;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px ;
+
+}
+
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+ button {
+  border: none;
+  margin:auto 20px;
+  background-color: green;
+  border-radius: 30px; 
+  height: 40px;
+  width: 80px;
+
+ } 
+button:hover{
+  background-color: darkgreen;
+  cursor: pointer;
+}
+footer {
+  position: absolute;
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0; 
+}
